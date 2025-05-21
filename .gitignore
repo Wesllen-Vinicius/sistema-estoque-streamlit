@@ -1,0 +1,39 @@
+# Arquivos de ambiente
+.env
+.streamlit/secrets.toml # Se você estiver usando secrets.toml localmente (embora no deploy seja no painel)
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+*virtualenv*/
+
+# Arquivos de cache e bytecode do Python
+__pycache__/
+*.pyc
+*.pyd
+*.o
+*.so
+
+# Arquivos de IDEs e editores (comuns)
+.vscode/        # Pasta de configurações do VS Code (opcional, pode ser útil versionar se for colaborativo)
+.idea/          # Pasta de configurações do PyCharm
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# Arquivos específicos do sistema operacional
+.DS_Store       # macOS
+Thumbs.db       # Windows
+ehthumbs.db     # Windows
+Desktop.ini     # Windows
+
+# Arquivos temporários do Streamlit
+.streamlit/local_temp/ # Cache local de arquivos temporários do Streamlit
+
+# Arquivos de dados (se gerados localmente e não parte do repositório)
+*.csv
+*.xlsx
+*.db            # Para bancos de dados SQLite locais, se você tiver um
+*.sqlite3       # Para bancos de dados SQLite locais

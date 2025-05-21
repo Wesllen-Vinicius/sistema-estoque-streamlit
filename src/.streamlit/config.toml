@@ -1,0 +1,8 @@
+# .streamlit/config.toml
+
+[theme]
+primaryColor="#FF4B4B"        # Cor principal para botões, links, etc. (Ex: Vermelho)
+backgroundColor="#0E1117"     # Cor de fundo principal da aplicação (Ex: Preto Escuro - modo escuro)
+secondaryBackgroundColor="#262730" # Cor de fundo secundária (Ex: Sidebar, containers - Cinza Escuro)
+textColor="#FAFAFA"           # Cor do texto principal (Ex: Branco Quase Puro)
+font="sans serif"             # Fonte: 'sans serif', 'serif' ou 'monospace'
